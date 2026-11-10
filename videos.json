@@ -1,0 +1,1659 @@
+{
+  "channels": [
+    {
+      "num": 2,
+      "name": "SHADER LAB",
+      "tagline": "Signed distance fields, raymarching and painting with maths",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=6Qb6QtC6QMs",
+          "title": "Smooth-Maximum, the most useful function",
+          "channel": "Inigo Quilez",
+          "duration": 650
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BFld4EBO2RE",
+          "title": "I painted a Landscape with Mathematics",
+          "channel": "Inigo Quilez",
+          "duration": 2520
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8--5LwHRhjk",
+          "title": "Painting a Character with Maths",
+          "channel": "Inigo Quilez",
+          "duration": 1486
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JnCkF62gkOY",
+          "title": "Painting with Maths in Google Sheets",
+          "channel": "Inigo Quilez",
+          "duration": 680
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=aNR4n0i2ZlM",
+          "title": "Making a heart with Maths",
+          "channel": "Inigo Quilez",
+          "duration": 613
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0ifChJ0nJfM",
+          "title": "Learn to Paint with Mathematics",
+          "channel": "Inigo Quilez",
+          "duration": 1442
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=emjuqqyq_qc",
+          "title": "Live Coding Shaders - an eye",
+          "channel": "Inigo Quilez",
+          "duration": 767
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CHmneY8ry84",
+          "title": "Live Coding Shaders - an apple",
+          "channel": "Inigo Quilez",
+          "duration": 1212
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-z8zLVFCJv4",
+          "title": "Live Coding Shaders - a clover leaf",
+          "channel": "Inigo Quilez",
+          "duration": 280
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9g8CdctxmeU",
+          "title": "Live coding a realtime raytracing shader",
+          "channel": "Inigo Quilez",
+          "duration": 1458
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_1FgCX0-Ny4",
+          "title": "Live coding / painting a Sun shader with Mathematics",
+          "channel": "Inigo Quilez",
+          "duration": 516
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ogFAHvYatWs",
+          "title": "Live coding musical instruments with mathematics",
+          "channel": "Inigo Quilez",
+          "duration": 365
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=y8aL4Cnb9m4",
+          "title": "Live Coding shaders improv session",
+          "channel": "Inigo Quilez",
+          "duration": 531
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=62-pRVZuS5c",
+          "title": "The SDF of a Box",
+          "channel": "Inigo Quilez",
+          "duration": 448
+        },
+        {
+          "url": "https://youtu.be/rvDo9LvfoVE",
+          "title": "Shader Coding: Making a starfield - Part 1",
+          "channel": "The Art of Code",
+          "duration": 1466
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=m_db7fUeM6M",
+          "title": "I made Deadpool and Wolverine with just MATH and CODE!",
+          "channel": "C Game Dev",
+          "duration": 544
+        },
+        {
+          "url": "https://youtu.be/405yudjksDA",
+          "title": "Functions rotation animation",
+          "channel": "Danil S",
+          "duration": 313
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TXg_cslfWgc",
+          "title": "LEGO Denoising using wavelet filters (Shadertoy)",
+          "channel": "Mathis",
+          "duration": 43
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vpwukN_FUa8",
+          "title": "Live Shader 30: Virtual Meadow",
+          "channel": "NuSan FX",
+          "duration": 7202
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=H6fKl4Vce_U",
+          "title": "Live Shader 28: Lava Temple",
+          "channel": "NuSan FX",
+          "duration": 9016
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2xeYr_URt_o",
+          "title": "Live Shader 27: Drop of Distortion",
+          "channel": "NuSan FX",
+          "duration": 8777
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2te8heN4CHo",
+          "title": "Live Shader 26: The Orb of Great Power",
+          "channel": "NuSan FX",
+          "duration": 9006
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=T23Fn5wvwkw",
+          "title": "Live Shader 25: City Borealis",
+          "channel": "NuSan FX",
+          "duration": 9858
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=h6euxpg8Q_s",
+          "title": "Live Shader 24: Fluid Tank",
+          "channel": "NuSan FX",
+          "duration": 8747
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FMi_L8ro1Oo",
+          "title": "Live Shader 23: Misty Grid",
+          "channel": "NuSan FX",
+          "duration": 7266
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7pCdnJbl0lk",
+          "title": "Live Shader 22: Inside Broken Space",
+          "channel": "NuSan FX",
+          "duration": 6801
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FMEE7ziK5AQ",
+          "title": "Live Shader 20: Hanging Plants",
+          "channel": "NuSan FX",
+          "duration": 7679
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=n9WZAjmkieM",
+          "title": "Live Shader 19: Sable Bat",
+          "channel": "NuSan FX",
+          "duration": 8074
+        },
+        {
+          "url": "https://youtu.be/ZX7tSWp5NjY",
+          "title": "WebGPU :: Creating a Raytracer with Bloom",
+          "channel": "arya 3d",
+          "duration": 777
+        },
+        {
+          "url": "https://youtu.be/ml-5OGZC7vE",
+          "title": "How Big Budget AAA Games Render Bloom",
+          "channel": "SimonDev",
+          "duration": 803
+        },
+        {
+          "url": "https://youtu.be/51LwM2R_e_o",
+          "title": "Live Coding: Cairo Tiling Explained!",
+          "channel": "The Art of Code",
+          "duration": 2091
+        },
+        {
+          "url": "https://youtu.be/lIf9SnVyvbc",
+          "title": "How The Bloom Effect Actually Works",
+          "channel": "Bean",
+          "duration": 765
+        },
+        {
+          "url": "https://youtu.be/JVWi-ji-C1Q",
+          "title": "Realistic Gaussian beams in Blender - Part 1 (Creating the shader)",
+          "channel": "Ryo Mizuta Graphics",
+          "duration": 569
+        },
+        {
+          "url": "https://youtu.be/8LyXYe2DUGE",
+          "title": "Real-time caustics - Under-water, new version",
+          "channel": "pirataLeChuck",
+          "duration": 12
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mf-IQMxM5vo",
+          "title": "Molten Marbles",
+          "channel": "StormOfTheVoid",
+          "duration": 313
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "name": "DEMOSCENE",
+      "tagline": "4k intros, party highlights and size-coded wonders",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=cLkybuVN9U0",
+          "title": "Demoscene 2019 highlights under 10 minutes",
+          "channel": "psenough",
+          "duration": 648
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lCFGFt7k3Jg",
+          "title": "Poly demo",
+          "channel": "Lewis Saunders",
+          "duration": 671
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OFFrdW2_7Lo",
+          "title": "Fractal Matrix V2 360° stereoscopic - Mandelbulb 3D fractal VR 4K",
+          "channel": "schizo604",
+          "duration": 252
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NC8BItCLQvY",
+          "title": "Circle Packing by NuSan (PC 4k intro - Revision 2026)",
+          "channel": "NuSan FX",
+          "duration": 188
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HexPOa-7L38",
+          "title": "Mycosphere Rising by NuSan (PC 4k intro - Revision 2025)",
+          "channel": "NuSan FX",
+          "duration": 138
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gwT18ETo_iI",
+          "title": "Drifting Shore by nusan (PC 4k intro)",
+          "channel": "NuSan FX",
+          "duration": 148
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-QnZbyS05zY",
+          "title": "Primordial Awakening by Nusan (PC 4k intro)",
+          "channel": "NuSan FX",
+          "duration": 145
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Fcug737CN1U",
+          "title": "Fantasy Escape by nusan and jeenio (PC 4k intro)",
+          "channel": "NuSan FX",
+          "duration": 109
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OjZVSqhReqA",
+          "title": "Steel Spin by NuSan (PC 4k intro)",
+          "channel": "NuSan FX",
+          "duration": 132
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lAvug7LKiIE",
+          "title": "The vanishing of Ashlar by NuSan (PC 4k intro)",
+          "channel": "NuSan FX",
+          "duration": 130
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=f3VSeLyooXA",
+          "title": "Sync Cord by NuSan & Valden (PC 4k intro)",
+          "channel": "NuSan FX",
+          "duration": 132
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZEid0WQfLuw",
+          "title": "Precious Confusion by NuSan & Valden (PC 4k intro)",
+          "channel": "NuSan FX",
+          "duration": 148
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OXT5MrDdyB8",
+          "title": "No CPU Challenge by Demostue Allst★rs",
+          "channel": "chainq68k",
+          "duration": 304
+        },
+        {
+          "url": "https://youtu.be/Fgu5ufp8idY",
+          "title": "Tipper - Bullet Holes And Such (AV Journey)",
+          "channel": "Frost.byte_",
+          "duration": 321
+        },
+        {
+          "url": "https://youtu.be/2mEM2jsoF_M",
+          "title": "Bad Apple but it's recursive",
+          "channel": "Movie Vertigo",
+          "duration": 219
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PeZNLvD4mds",
+          "title": "I Go to Olympics of 4KB Coding.",
+          "channel": "Kai Lentit",
+          "duration": 596
+        },
+        {
+          "url": "https://youtu.be/y65hzhtoCoQ",
+          "title": "GLSL Hypnotic Techno Live Set @ 第七回 電子音楽ライヴの集い, VRChat",
+          "channel": "0b5vr",
+          "duration": 1835
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "name": "LECTURE HALL",
+      "tagline": "TU Wien rendering, UC Davis global illumination, Utah interactive graphics",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=pjc1QAI6zS0",
+          "title": "TU Wien Rendering #1 - Introduction",
+          "channel": "Two Minute Papers",
+          "duration": 677
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fSB4mqnm5lA",
+          "title": "TU Wien Rendering #2 - Radiometry Recap, Light Attenuation",
+          "channel": "Two Minute Papers",
+          "duration": 661
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4gXPVoippTs",
+          "title": "TU Wien Rendering #3 - BRDF models, The Rendering Equation",
+          "channel": "Two Minute Papers",
+          "duration": 1090
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Gm7szS1hQxs",
+          "title": "TU Wien Rendering #4 - Diffuse, Specular and Ambient Shading",
+          "channel": "Two Minute Papers",
+          "duration": 785
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iKNSPETJNgo",
+          "title": "TU Wien Rendering #5 - The Fresnel Equation and Schlick's Approximation",
+          "channel": "Two Minute Papers",
+          "duration": 897
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LD6xRkCJ6ek",
+          "title": "TU Wien Rendering #6 - Snell's Law and Total Internal Reflection",
+          "channel": "Two Minute Papers",
+          "duration": 932
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bQKy3N4TshU",
+          "title": "TU Wien Rendering #7 - Ray-Sphere Intersection",
+          "channel": "Two Minute Papers",
+          "duration": 642
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Zi_CVTgqJqI",
+          "title": "TU Wien Rendering #8 - Surface Normals",
+          "channel": "Two Minute Papers",
+          "duration": 606
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fcvhOC5Q1dI",
+          "title": "TU Wien Rendering #9 - Hard and Soft Shadows",
+          "channel": "Two Minute Papers",
+          "duration": 990
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZhN5-o397QI",
+          "title": "TU Wien Rendering #10 - Camera models",
+          "channel": "Two Minute Papers",
+          "duration": 467
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Qgsos_kz6pM",
+          "title": "TU Wien Rendering #11 - Recursion and Heckbert's Taxonomy",
+          "channel": "Two Minute Papers",
+          "duration": 732
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WFOjJR3nWyQ",
+          "title": "TU Wien Rendering #12 - Assignment 1",
+          "channel": "Two Minute Papers",
+          "duration": 543
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AUKLBdyvFxw",
+          "title": "TU Wien Rendering #13 - Easter, BRDF++, Depth of Field",
+          "channel": "Two Minute Papers",
+          "duration": 858
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vS0g9SVHRFc",
+          "title": "TU Wien Rendering #14 - Global Illumination Benefits",
+          "channel": "Two Minute Papers",
+          "duration": 715
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sg0pAwOSNGw",
+          "title": "TU Wien Rendering #15 - Rendering Equation Properties",
+          "channel": "Two Minute Papers",
+          "duration": 836
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Tb6-JfI0HA0",
+          "title": "TU Wien Rendering #16 - Monte Carlo Integration: Hit or Miss",
+          "channel": "Two Minute Papers",
+          "duration": 363
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HZWwaLVATA8",
+          "title": "TU Wien Rendering #17 - Monte Carlo Integration: Sample Mean & An Important Lesson",
+          "channel": "Two Minute Papers",
+          "duration": 707
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Oo9oOuC2zOo",
+          "title": "TU Wien Rendering #18 - Coming Up Next: BVH, Tone Mapping, SSS",
+          "channel": "Two Minute Papers",
+          "duration": 693
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ash4Q06ZcHU",
+          "title": "TU Wien Rendering #19 - Space Partitioning 1",
+          "channel": "Two Minute Papers",
+          "duration": 857
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ua8Aaf-XIO8",
+          "title": "TU Wien Rendering #20 - Space Partitioning 2",
+          "channel": "Two Minute Papers",
+          "duration": 1119
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=s6i8AV-m4W8",
+          "title": "TU Wien Rendering #21 - Tone Mapping Basics",
+          "channel": "Two Minute Papers",
+          "duration": 1328
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=E69UxMz2Q9A",
+          "title": "TU Wien Rendering #22 - Reinhard's Tone Mapper",
+          "channel": "Two Minute Papers",
+          "duration": 1501
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Su6mJp6NYY4",
+          "title": "TU Wien Rendering #23 - Monte Carlo Integration: The Solution",
+          "channel": "Two Minute Papers",
+          "duration": 1021
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zZZ4xW0WaY0",
+          "title": "TU Wien Rendering #24 - Importance Sampling",
+          "channel": "Two Minute Papers",
+          "duration": 627
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=i6KDgYk5Nzg",
+          "title": "TU Wien Rendering #25 - Path Tracing, Next Event Estimation",
+          "channel": "Two Minute Papers",
+          "duration": 1077
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1ziudxJT884",
+          "title": "TU Wien Rendering #26 - Low Discrepancy Sequences",
+          "channel": "Two Minute Papers",
+          "duration": 295
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vPwiqXjDgeo",
+          "title": "TU Wien Rendering #27 - Russian Roulette Path Termination",
+          "channel": "Two Minute Papers",
+          "duration": 627
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=z9p2nis3amM",
+          "title": "TU Wien Rendering #28 - Assignment 3",
+          "channel": "Two Minute Papers",
+          "duration": 339
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cDi-uti2oLQ",
+          "title": "TU Wien Rendering #29 - Path Tracing Implementation & Code Walkthrough",
+          "channel": "Two Minute Papers",
+          "duration": 1408
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=UcI-RnWzASk",
+          "title": "TU Wien Rendering #30 - Dispersion and Spectral Rendering",
+          "channel": "Two Minute Papers",
+          "duration": 558
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LB6NGEHtD7Y",
+          "title": "TU Wien Rendering #31 - Unbiased, Consistent Algorithm Classes",
+          "channel": "Two Minute Papers",
+          "duration": 852
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RuBjYa4Q3dA",
+          "title": "TU Wien Rendering #32 - Bidirectional Path Tracing, Multiple Importance Sampling",
+          "channel": "Two Minute Papers",
+          "duration": 1116
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Zl36H9pwsHE",
+          "title": "TU Wien Rendering #33 - Metropolis Light Transport",
+          "channel": "Two Minute Papers",
+          "duration": 1484
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-1C2kL5pTbs",
+          "title": "TU Wien Rendering #34 - SDS Transport, Photon Mapping",
+          "channel": "Two Minute Papers",
+          "duration": 549
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lc93pVlewGM",
+          "title": "TU Wien Rendering #35 - Stochastic Progressive Photon Mapping",
+          "channel": "Two Minute Papers",
+          "duration": 222
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Hc9zu5-O7Eo",
+          "title": "TU Wien Rendering #36 - Vertex Connection and Merging, Path Space Regularization",
+          "channel": "Two Minute Papers",
+          "duration": 305
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-WQu7cLuniM",
+          "title": "TU Wien Rendering #37 - Manifold Exploration",
+          "channel": "Two Minute Papers",
+          "duration": 204
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=C3DtGTr0jX8",
+          "title": "TU Wien Rendering #38 - Awesome Rendering Papers from 2013-2015",
+          "channel": "Two Minute Papers",
+          "duration": 488
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bYGL3fLYudM",
+          "title": "TU Wien Rendering #39 - Assignment 4, Farewell",
+          "channel": "Two Minute Papers",
+          "duration": 474
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XL5bq8DRn64",
+          "title": "The Algorithm That Made Me Cry",
+          "channel": "Two Minute Papers",
+          "duration": 470
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=k9Nz2z1jTFQ",
+          "title": "Recursive Ray Tracing",
+          "channel": "UC Davis",
+          "duration": 2877
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wENIThh7XWo",
+          "title": "Intersecting Rays",
+          "channel": "UC Davis",
+          "duration": 2779
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gLfYTP4F23g",
+          "title": "Radiant Flux, Radiance and Solid Angle",
+          "channel": "UC Davis",
+          "duration": 3001
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ytRrjf9OPHg",
+          "title": "Bidirectional Reflectance Distribution Function",
+          "channel": "UC Davis",
+          "duration": 3144
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Xi1FZZJ235I",
+          "title": "Cook-Torrance BRDF",
+          "channel": "UC Davis",
+          "duration": 3069
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bh8oVUeGMEw",
+          "title": "Introduction to Discrete Probability",
+          "channel": "UC Davis",
+          "duration": 2958
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hmBruXuXnzg",
+          "title": "Continuous Probability",
+          "channel": "UC Davis",
+          "duration": 2986
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-mkLWm2f4hg",
+          "title": "Sampling Random Variables",
+          "channel": "UC Davis",
+          "duration": 3103
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lnrMWVjxGMM",
+          "title": "Distributed Ray Tracing",
+          "channel": "UC Davis",
+          "duration": 3064
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0u2uVld2CNA",
+          "title": "Phong Glossy Reflection",
+          "channel": "UC Davis",
+          "duration": 3036
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6SBQ201a9R8",
+          "title": "Environmental Illumination",
+          "channel": "UC Davis",
+          "duration": 3038
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xIPKmbuVHQI",
+          "title": "Indirect Illumination Recursion",
+          "channel": "UC Davis",
+          "duration": 3010
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0AMY1EfYhqE",
+          "title": "Signal Processing",
+          "channel": "UC Davis",
+          "duration": 3000
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fYcpLzIPRGg",
+          "title": "Anti-aliasing Filtering Strategies",
+          "channel": "UC Davis",
+          "duration": 3012
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Wwm7j7XvdWQ",
+          "title": "\"Backwards\" Path Tracing",
+          "channel": "UC Davis",
+          "duration": 2921
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZTl2G5doCv4",
+          "title": "Finite Element Method",
+          "channel": "UC Davis",
+          "duration": 2839
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_EW-33YXTGU",
+          "title": "Progressive Radiosity",
+          "channel": "UC Davis",
+          "duration": 2872
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ddx3C7779LE",
+          "title": "Direct and Indirect Illumination",
+          "channel": "UC Davis",
+          "duration": 2955
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=v58ULYS_Dok",
+          "title": "Global Lines",
+          "channel": "UC Davis",
+          "duration": 3032
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VKlg5sI_pxI",
+          "title": "Point-to-Polygon Form Factor",
+          "channel": "UC Davis",
+          "duration": 2922
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QhJhVkbCgVU",
+          "title": "Bidirectional Path Tracing",
+          "channel": "UC Davis",
+          "duration": 2937
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4BBkjzwqMSU",
+          "title": "Photon Mapping",
+          "channel": "UC Davis",
+          "duration": 2960
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_2ksMoI4uOg",
+          "title": "Extinction and Scattering Coefficient",
+          "channel": "UC Davis",
+          "duration": 2445
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HweU2JXvY7A",
+          "title": "Ambient Occlusion",
+          "channel": "UC Davis",
+          "duration": 2945
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=27IiQGuhoug",
+          "title": "Hierarchical Radiosity",
+          "channel": "UC Davis",
+          "duration": 3177
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=k-23LgrFcvs",
+          "title": "The Return of the Utah Teapot - SIGGRAPH 2026",
+          "channel": "Cem Yuksel",
+          "duration": 2879
+        },
+        {
+          "url": "https://youtu.be/9r_lmsxlUuY",
+          "title": "1971 (and published in 1972) A Computer Animated Hand by Ed Catmull",
+          "channel": "ACMSIGGRAPH",
+          "duration": 147
+        },
+        {
+          "url": "https://youtu.be/P1IcaBn3ej0",
+          "title": "Enhancing Photorealism Enhancement",
+          "channel": "ISL and Collaborators",
+          "duration": 513
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "name": "HPG LIVE",
+      "tagline": "Talks from High-Performance Graphics",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=sgXI-elxWik",
+          "title": "Warp-Level Culling for Efficient Blending in 3D Gaussian Splatting",
+          "channel": "High-Performance Graphics",
+          "duration": 1309
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rrjyNiZD3Rg",
+          "title": "Programmable Graphics Pipelines",
+          "channel": "High-Performance Graphics",
+          "duration": 5061
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=r6NtvrLNA8Q",
+          "title": "Ray Tracing Massive Amounts of Animated Geometry",
+          "channel": "High-Performance Graphics",
+          "duration": 1453
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=r4ZcNZVtuRk",
+          "title": "Accelerating Real-Time Neural Rendering on Qualcomm Adreno GPUs",
+          "channel": "High-Performance Graphics",
+          "duration": 1778
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=psBJNstbgaY",
+          "title": "neural.slang: A Standard Module for Inline Neural Networks in Shaders",
+          "channel": "High-Performance Graphics",
+          "duration": 1874
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nwCGtLM6kD4",
+          "title": "Real-time Path Tracing of Massive Dynamic Foliage",
+          "channel": "High-Performance Graphics",
+          "duration": 1459
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=aacI8loTNj8",
+          "title": "Memory-Efficient Bounding Volume Hierarchies with Merged Nodes",
+          "channel": "High-Performance Graphics",
+          "duration": 1390
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z24xDVAe3t4",
+          "title": "Sokatoa: A Multi-Frame Vulkan Profiling and Frame Debugging Platform for Android",
+          "channel": "High-Performance Graphics",
+          "duration": 855
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Y8SUEtJ9Rsg",
+          "title": "Periodic Anderson Acceleration for GPU-based Elastic Body Simulation",
+          "channel": "High-Performance Graphics",
+          "duration": 1440
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XkluutbJx4U",
+          "title": "Reliable Frame Profiling for Android",
+          "channel": "High-Performance Graphics",
+          "duration": 1523
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=UsxmxjLCW08",
+          "title": "High-Performance Real-Time Implicit Strand-Based Hair Rendering via Software Rasterization",
+          "channel": "High-Performance Graphics",
+          "duration": 1393
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PTD4yvGWgvA",
+          "title": "Warnock: Harnessing GPU Geometry Amplification for Vector Graphics",
+          "channel": "High-Performance Graphics",
+          "duration": 1657
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MCqnETw3l8A",
+          "title": "Compatibility-Guided Neighbor Selection for ReSTIR",
+          "channel": "High-Performance Graphics",
+          "duration": 1474
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JyRFRqLYBok",
+          "title": "Real-time 3D Visualization of Radiance Fields on Light Field Displays",
+          "channel": "High-Performance Graphics",
+          "duration": 1328
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=C8Ym3SOQXCY",
+          "title": "Complex Models, Simple Solutions",
+          "channel": "High-Performance Graphics",
+          "duration": 2090
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Br_g44j9muQ",
+          "title": "Real-Time Dissectible Deformable Models Using High-Performance Breakable Shape Constraints",
+          "channel": "High-Performance Graphics",
+          "duration": 1557
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9WLhKyRAY5U",
+          "title": "A Game Rendering Manifesto",
+          "channel": "High-Performance Graphics",
+          "duration": 2821
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=96T5gGcUSAQ",
+          "title": "Scalable Training and Rendering of 3D Gaussians for Large Scale Scientific Data",
+          "channel": "High-Performance Graphics",
+          "duration": 1457
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-6GU9dhb8X4",
+          "title": "RDNA4 architecture",
+          "channel": "High-Performance Graphics",
+          "duration": 1567
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-3ZTrTmSJ98",
+          "title": "Environmental Volumetric Neural Shading of Clouds for Real-Time Rendering",
+          "channel": "High-Performance Graphics",
+          "duration": 1376
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JK9hEe6FAsg",
+          "title": "Common Subtree Merging Compressed Opacity Micromaps",
+          "channel": "High-Performance Graphics",
+          "duration": 1216
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=C7i4s_r_xM0",
+          "title": "Optimizing Vulkan Dispatch Schedules for Real-Time U-Net Denoising",
+          "channel": "High-Performance Graphics",
+          "duration": 1256
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=whOxxe7RR2I",
+          "title": "TRS: Triangle Rejection Sampling for Density-equipped Meshes on GPU [HD]",
+          "channel": "High-Performance Graphics",
+          "duration": 1362
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IyO4EsaMy3Q",
+          "title": "The Future of Analytical Materials in a Neural World [HD]",
+          "channel": "High-Performance Graphics",
+          "duration": 3673
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=egAQQTK1kr4",
+          "title": "Splatshop: Efficiently Editing Large Gaussian Splat Models [HD]",
+          "channel": "High-Performance Graphics",
+          "duration": 1126
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ht1dtAHCRL8",
+          "title": "Slang: Bridging Graphics and Machine Learning [HD]",
+          "channel": "High-Performance Graphics",
+          "duration": 1350
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=THVMMNZ68iA",
+          "title": "Spherical Harmonic Exponentials for Efficient Glossy Reflections [HD]",
+          "channel": "High-Performance Graphics",
+          "duration": 1303
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1o9OvQzEGJQ",
+          "title": "Interactive Stroke-based Neural SDF Sculpting [HD]",
+          "channel": "High-Performance Graphics",
+          "duration": 1685
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JzWYo-t4do4",
+          "title": "Real-time rendering of animated meshless representation [HD]",
+          "channel": "High-Performance Graphics",
+          "duration": 1281
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iMy7r8iGpRI",
+          "title": "RenderMan XPU: A hybrid CPU+GPU renderer for interactive and final-frame rendering [HD]",
+          "channel": "High-Performance Graphics",
+          "duration": 1791
+        },
+        {
+          "url": "https://youtu.be/_oFlu958-Po",
+          "title": "Real-Time GPU Tree Generation [HD]",
+          "channel": "High-Performance Graphics",
+          "duration": 1486
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "name": "CODING ADVENTURES",
+      "tagline": "Sebastian Lague, The Coding Train, Coding Math and friends",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=_JGMgpyCTsY",
+          "title": "I Tried Coding my own Graphics Library",
+          "channel": "Sebastian Lague",
+          "duration": 1650
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fy0HRViXZnE",
+          "title": "Coding Adventure: Rubik's Cube",
+          "channel": "Sebastian Lague",
+          "duration": 1462
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rRnOtKlg4jA",
+          "title": "Coding Adventure: Additive Synthesis",
+          "channel": "Sebastian Lague",
+          "duration": 2130
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=08mmKNLQVHU",
+          "title": "Coding Adventure: Analyzing Audio",
+          "channel": "Sebastian Lague",
+          "duration": 1288
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Q78wvrQ9xsU",
+          "title": "Coding Adventure: Simulating Smoke",
+          "channel": "Sebastian Lague",
+          "duration": 2500
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wA1KVZ1eOuA",
+          "title": "Coding Adventure: Ray-Tracing Glass",
+          "channel": "Sebastian Lague",
+          "duration": 2478
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=yyJ-hdISgnw",
+          "title": "Coding Adventure: Software Rasterizer",
+          "channel": "Sebastian Lague",
+          "duration": 3009
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HGkuRp5HfH8",
+          "title": "Simulating 256 Bytes of RAM",
+          "channel": "Sebastian Lague",
+          "duration": 1549
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8nIB7e_eds4",
+          "title": "Coding Adventure: Planetary Fluid Sim",
+          "channel": "Sebastian Lague",
+          "duration": 1643
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kOkfC5fLfgE",
+          "title": "Coding Adventure: Rendering Fluids",
+          "channel": "Sebastian Lague",
+          "duration": 3521
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iA6wRgwl7k0",
+          "title": "Coding Adventure: Sound (and the Fourier Transform)",
+          "channel": "Sebastian Lague",
+          "duration": 2611
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=C1H4zIiCOaI",
+          "title": "Coding Adventure: More Ray Tracing!",
+          "channel": "Sebastian Lague",
+          "duration": 3133
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SO83KQuuZvg",
+          "title": "Coding Adventure: Rendering Text",
+          "channel": "Sebastian Lague",
+          "duration": 4254
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rSKMYc1CQHE",
+          "title": "Coding Adventure: Simulating Fluids",
+          "channel": "Sebastian Lague",
+          "duration": 2872
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Qz0KTGYJtUk",
+          "title": "Coding Adventure: Ray Tracing",
+          "channel": "Sebastian Lague",
+          "duration": 2278
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hfMk-kjRv4c",
+          "title": "I Tried Coding a Neural Network to Identify Doodles",
+          "channel": "Sebastian Lague",
+          "duration": 3291
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=s2jm2Z22ibA",
+          "title": "Coding Challenge 188: Voice Chatbot",
+          "channel": "The Coding Train",
+          "duration": 2368
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=g3-PXyF8U70",
+          "title": "Coding Challenge 187: Bayes Theorem",
+          "channel": "The Coding Train",
+          "duration": 3218
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5iSAvzU2WYY",
+          "title": "Coding Challenge 186: Wave Function Collapse",
+          "channel": "The Coding Train",
+          "duration": 5529
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MazpwQNdJYQ",
+          "title": "Coding Challenge 185: Unfolding Fractals",
+          "channel": "The Coding Train",
+          "duration": 1864
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dJNFPv9Mj-Y",
+          "title": "Coding Challenge 184: Collisions Without a Physics Library!",
+          "channel": "The Coding Train",
+          "duration": 1865
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=p7IGZTjC008",
+          "title": "Coding Challenge 183: Paper Marbling Algorithm",
+          "channel": "The Coding Train",
+          "duration": 1930
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6UlGLB_jiCs",
+          "title": "Coding Challenge 182: Apollonian Gasket Fractal",
+          "channel": "The Coding Train",
+          "duration": 3408
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Bxdt6T_1qgc",
+          "title": "Coding Challenge 181: Weighted Voronoi Stippling",
+          "channel": "The Coding Train",
+          "duration": 1739
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=L4u7Zy_b868",
+          "title": "Coding Challenge 180: Falling Sand",
+          "channel": "The Coding Train",
+          "duration": 1380
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ggxt06qSAe4",
+          "title": "Coding Challenge 179: Elementary Cellular Automata",
+          "channel": "The Coding Train",
+          "duration": 1301
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rVBTxnRyOuE",
+          "title": "Coding Challenge 178: Climate Spiral",
+          "channel": "The Coding Train",
+          "duration": 2467
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IxdGyqhppis",
+          "title": "Coding Challenge 177: Soft Body Physics",
+          "channel": "The Coding Train",
+          "duration": 1749
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=h5ZNcAPXxew",
+          "title": "Coding Challenge 176: Buffon's Needle",
+          "channel": "The Coding Train",
+          "duration": 1504
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=75Cbkoo4Gwg",
+          "title": "Coding Math: Episode 58 - Array Math",
+          "channel": "Coding Math",
+          "duration": 1296
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=V5Q5DVI2TjY",
+          "title": "Coding Math: Episode 54 - Dot Product",
+          "channel": "Coding Math",
+          "duration": 673
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MvZAjkD8-wk",
+          "title": "Coding Math: Episode 53 - Random Circle Packing",
+          "channel": "Coding Math",
+          "duration": 543
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RbwNVzhNwJ8",
+          "title": "Coding Math: Episode 52 - Pseudo Random Number Generators, Part II",
+          "channel": "Coding Math",
+          "duration": 844
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4sYawx70iP4",
+          "title": "Coding Math: Episode 51 - Pseudo Random Number Generators Part I",
+          "channel": "Coding Math",
+          "duration": 839
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=geqq63WFLr0",
+          "title": "Coding Math: Episode 50 - IFS Fractals",
+          "channel": "Coding Math",
+          "duration": 741
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=J8Hw1vHBbBQ",
+          "title": "Coding Math: Episode 49 - Matrix Math Part II",
+          "channel": "Coding Math",
+          "duration": 640
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=br5kl7Gqrxk",
+          "title": "Coding Math: Episode 48 - Matrix Math Part I",
+          "channel": "Coding Math",
+          "duration": 676
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WHn2ouKKSfs",
+          "title": "Coding Math: Episode 43 - Kinematics Part I",
+          "channel": "Coding Math",
+          "duration": 661
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=go1qrWFw_bs",
+          "title": "Coding Math: Episode 41 - Isometric 3D Part I",
+          "channel": "Coding Math",
+          "duration": 1039
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8JmoI4q7fTg",
+          "title": "Coding Math: Episode 40 - Fractal Trees",
+          "channel": "Coding Math",
+          "duration": 1030
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3HjO_RGIjCU",
+          "title": "Coding Math: Episode 36 - Verlet Integration Part I",
+          "channel": "Coding Math",
+          "duration": 783
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bIfNwgUVjV8",
+          "title": "Coding Math: Episode 35 - Intro to Fractals",
+          "channel": "Coding Math",
+          "duration": 877
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY",
+          "title": "Let's build GPT: from scratch, in code, spelled out.",
+          "channel": "Andrej Karpathy",
+          "duration": 6980
+        },
+        {
+          "url": "https://youtu.be/Hc9x1e85L0w",
+          "title": "Procedural Walking Animation in Minecraft",
+          "channel": "Cymaera",
+          "duration": 520
+        },
+        {
+          "url": "https://youtu.be/EIlp8wyY97c",
+          "title": "The Real Missing Colors of Minecraft (*1.20)",
+          "channel": "Gneiss Name",
+          "duration": 657
+        },
+        {
+          "url": "https://youtu.be/_ZSFRWJCUY4",
+          "title": "2022 -  Non-Euclidean Doom: what happens to a game when pi is not 3.14159…",
+          "channel": "WHY2025",
+          "duration": 1153
+        },
+        {
+          "url": "https://youtu.be/LlpoumthFSs",
+          "title": "Minecraft looks a bit different now.",
+          "channel": "Phoenix SC",
+          "duration": 580
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "name": "MATH & SCIENCE",
+      "tagline": "Linear algebra, triangles, the curvature of the Earth and exploding wires",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs",
+          "title": "Vectors | Chapter 1, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 592
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=k7RM-ot2NWY",
+          "title": "Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 599
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kYB8IZa5AuE",
+          "title": "Linear transformations and matrices | Chapter 3, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 659
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XkY2DOUCWMU",
+          "title": "Matrix multiplication as composition | Chapter 4, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 604
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rHLEWRxRGiM",
+          "title": "Three-dimensional linear transformations | Chapter 5, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 286
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ip3X9LOh2dk",
+          "title": "The determinant | Chapter 6, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 603
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uQhTuRlWMxw",
+          "title": "Inverse matrices, column space and null space | Chapter 7, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 729
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=v8VSDg_WQlA",
+          "title": "Nonsquare matrices as transformations between dimensions | Chapter 8, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 267
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LyGKycYT2v0",
+          "title": "Dot products and duality | Chapter 9, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 852
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=eu6i7WJeinw",
+          "title": "Cross products | Chapter 10, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 534
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BaM7OCEm3G0",
+          "title": "Cross products in the light of linear transformations | Chapter 11, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 790
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jBsC34PxzoM",
+          "title": "Cramer's rule, explained geometrically | Chapter 12, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 732
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=P2LTAUO1TdA",
+          "title": "Change of basis | Chapter 13, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 771
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PFDu9oVAE-g",
+          "title": "Eigenvectors and eigenvalues | Chapter 14, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 1036
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=e50Bj7jn9IQ",
+          "title": "A quick trick for computing eigenvalues | Chapter 15, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 793
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TgKwz5Ikpc8",
+          "title": "Abstract vector spaces | Chapter 16, Essence of linear algebra",
+          "channel": "3Blue1Brown",
+          "duration": 1006
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=A0L_PZwuGHY",
+          "title": "Behold all-new equations for triangles!",
+          "channel": "Stand-up Maths",
+          "duration": 1337
+        },
+        {
+          "url": "https://youtu.be/xpUcZXiKtfU",
+          "title": "How High Do You Have To Be To See The Curvature of The Earth 360/VR",
+          "channel": "Scott Manley",
+          "duration": 700
+        },
+        {
+          "url": "https://youtu.be/KJDEsAy9RyM",
+          "title": "The WALKING WATER Mystery (in SPACE and SLOW MOTION!) - Smarter Every Day 160",
+          "channel": "SmarterEveryDay",
+          "duration": 729
+        },
+        {
+          "url": "https://youtu.be/agwKNLoU6g8",
+          "title": "4,000-Joule Exploding Wire Machine",
+          "channel": "Hyperspace Pirate",
+          "duration": 1621
+        },
+        {
+          "url": "https://youtu.be/yz37Yz315eU",
+          "title": "Designing a simple analog kick drum from scratch",
+          "channel": "Moritz Klein",
+          "duration": 2351
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bJWs2aAKvyI",
+          "title": "The Magic of E-Ink: Looking Back at the BMW i5 Flow NOSTOKANA",
+          "channel": "ePaperIA",
+          "duration": 79
+        },
+        {
+          "url": "https://youtu.be/jnZLGlMbgUI",
+          "title": "White Gloves of Destiny (feat. NASA Astronaut) - Objectivity 89",
+          "channel": "Objectivity",
+          "duration": 514
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2bDifmZCasY",
+          "title": "Lightfield Display",
+          "channel": "Ancient",
+          "duration": 67
+        },
+        {
+          "url": "https://youtu.be/_tUFrkua9IU",
+          "title": "60k Fourier harmonics draw the Stanford bunny",
+          "channel": "Alexander Gustafsson",
+          "duration": 184
+        },
+        {
+          "url": "https://youtu.be/5nW3nJhBHL0",
+          "title": "Why is there no equation for the perimeter of an ellipse‽",
+          "channel": "Stand-up Maths",
+          "duration": 1264
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "name": "DEV TALK",
+      "tagline": "Podcasts with graphics programmers and engine makers",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=8F3jJdK4abw",
+          "title": "raylib author on library internals and C programming language!",
+          "channel": "Wookash Podcast",
+          "duration": 6499
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AmDw0E-CFgo",
+          "title": "Inigo Quilez: Interview with the 1/2 founder of Shadertoy",
+          "channel": "withyounotsomewhere",
+          "duration": 5329
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Gpk5Fc9Qz3c",
+          "title": "Panos Karabelas Podcast #3 - Emilio Lopez",
+          "channel": "Panos Karabelas",
+          "duration": 8285
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WqukPrsFOlk",
+          "title": "Panos Karabelas Podcast #2 - Sergey Kosarevsky",
+          "channel": "Panos Karabelas",
+          "duration": 3147
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OZRwCZhglsQ",
+          "title": "Panos Karabelas Podcast #1 - Ramon Santamaria",
+          "channel": "Panos Karabelas",
+          "duration": 4377
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uXadNsY5TkE",
+          "title": "Game Dev, Career & Life – A Chat with Dayton Ohio Univ. Game Dev Club & Spartan Engine's Creator",
+          "channel": "Panos Karabelas",
+          "duration": 4023
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TMZ0epSVwCk",
+          "title": "Spartan Engine - 10 Year Anniversary",
+          "channel": "Panos Karabelas",
+          "duration": 61
+        },
+        {
+          "url": "https://youtu.be/F1ax1iJTHFs",
+          "title": "Painting with Math | Inigo Quilez",
+          "channel": "Wookash Podcast",
+          "duration": 8864
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "name": "MUSIC",
+      "tagline": "Music videos, from melodic death metal to synthwave",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=149o8-dlWx0",
+          "title": "Cathode Ray Sunshine",
+          "channel": "Dark Tranquillity - Topic",
+          "duration": 254
+        },
+        {
+          "url": "https://youtu.be/HECPJ-MgdcE",
+          "title": "Virginia Woolf Underwater (Bonus Track)",
+          "channel": "Chelsea Wolfe - Topic",
+          "duration": 262
+        },
+        {
+          "url": "https://youtu.be/W_jr8cCD2sU",
+          "title": "KAS:ST - Road To Nowhere [360° 8K Visual]",
+          "channel": "Olli Spinolli",
+          "duration": 426
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=u3E_hG5c5QI",
+          "title": "Jon Hopkins - RITUAL (palace) (Official Video)",
+          "channel": "Jon Hopkins",
+          "duration": 355
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_jw7yk8hm_0",
+          "title": "DIMMU BORGIR - Gateways (OFFICIAL MUSIC VIDEO)",
+          "channel": "Nuclear Blast Records",
+          "duration": 305
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1pFfsTmf_yc",
+          "title": "Someday",
+          "channel": "Ellende - Topic",
+          "duration": 326
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=eNvUS-6PTbs",
+          "title": "Modern Talking - Cheri Cheri Lady (Official Video)",
+          "channel": "ModernTalkingVEVO",
+          "duration": 197
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BFq5JiH7_IY",
+          "title": "Dimatis - Moonlit Lover",
+          "channel": "Dimatis",
+          "duration": 210
+        },
+        {
+          "url": "https://youtu.be/Bc9xCCx8fJU",
+          "title": "Sea Lion Rap \"Yuno Miles (Official Video)",
+          "channel": "Yuno Miles ",
+          "duration": 119
+        },
+        {
+          "url": "https://youtu.be/qV0aezH6Aj8",
+          "title": "world.execute(me);",
+          "channel": "Kaito Sugimura",
+          "duration": 212
+        },
+        {
+          "url": "https://youtu.be/JcT2Yy3bt-A",
+          "title": "Neurosynth WIP",
+          "channel": "Michele Zaccagnini",
+          "duration": 133
+        },
+        {
+          "url": "https://youtu.be/vZ7nTHxWyOk",
+          "title": "Linkin Park - Crawling (Audio)",
+          "channel": "YOUMUSIC",
+          "duration": 216
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "name": "WEIRD & WONDERFUL",
+      "tagline": "Strange fruit, destruction physics, trailers and VHS fuzz",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=z8fgBVm1KpA",
+          "title": "JUNGLE ALMOND - This Fruit is Surrounded by Dangerous Sharp Spines!",
+          "channel": "Weird Explorer",
+          "duration": 813
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=yg0oAvG-oPg",
+          "title": "This Rare Fruit Can be Made into CHOCOLATE - Monkey Head Cacao (CAPUI FRUIT)",
+          "channel": "Weird Explorer",
+          "duration": 730
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uK1hwKmZFd8",
+          "title": "This Fruit Has Something Strange Inside It - SORVA",
+          "channel": "Weird Explorer",
+          "duration": 1026
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Wb8RYYDQAx4",
+          "title": "One day in Peru - What fruit can we find?",
+          "channel": "Weird Explorer",
+          "duration": 720
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JXZqmqqU5o0",
+          "title": "We found what we were looking for! - GIANT YELLOW JABOTICABA (Mulchi Fruit)",
+          "channel": "Weird Explorer",
+          "duration": 756
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VvzyTQqMos8",
+          "title": "The Lotus Iceberg - Exploring The Many Uses For This Fascinating Plant",
+          "channel": "Weird Explorer",
+          "duration": 2833
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bBGc-_vvvjk",
+          "title": "This Rare Amazonian Fruit Tastes Like Iced Tea - CHICLE MUYO FRUIT",
+          "channel": "Weird Explorer",
+          "duration": 555
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=okrmBhWVB1g",
+          "title": "SO RARE! Tasting Matisia Fruits in the Amazon Jungle",
+          "channel": "Weird Explorer",
+          "duration": 799
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=G-APWrLy4ck",
+          "title": "BULL'S BALLS FRUIT - This Insane Fruit is Full of SLIME!",
+          "channel": "Weird Explorer",
+          "duration": 901
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DYf0Z0vNh3c",
+          "title": "UMARI FRUIT - The Butter of The Amazon Jungle",
+          "channel": "Weird Explorer",
+          "duration": 1163
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TYsSsw0gbLs",
+          "title": "Some Say This Fruit Smells Like Cat Poop... and it's a bigger problem then you'd think- VELVET APPLE",
+          "channel": "Weird Explorer",
+          "duration": 1372
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AGVqEdPr3AM",
+          "title": "These Trees Don't Even Look Real. - The Vietnamese \"Strawberry\"",
+          "channel": "Weird Explorer",
+          "duration": 1163
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Y4kZLiWhkBg",
+          "title": "Rare Jackfruits From Around the World - (Red, Malibu, Giant and \"Land\" Varieties)",
+          "channel": "Weird Explorer",
+          "duration": 1005
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Wc_QC25RM44",
+          "title": "Teardown - Advanced Destruction",
+          "channel": "2kliksphilip",
+          "duration": 546
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BkPpgMwPss0",
+          "title": "Launch Announcement | Cinematic Trailer - Legends of Runeterra",
+          "channel": "Legends of Runeterra",
+          "duration": 197
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xBor6xSL91c",
+          "title": "Spooktober is All October Live on Saturdays!",
+          "channel": "Human Interact",
+          "duration": 47
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5AxwaszFbDw",
+          "title": "Make the logo BIGGER!",
+          "channel": "nclmll",
+          "duration": 170
+        },
+        {
+          "url": "https://youtu.be/AKuUG7luvQc",
+          "title": "Authorities Investigate Collision Between Trains From Chicago Traveling 80 MPH, DC Traveling 75 MPH",
+          "channel": "The Onion",
+          "duration": 153
+        },
+        {
+          "url": "https://youtu.be/0uQ3bkiW5SE",
+          "title": "Why you're wrong about 0-based indexing",
+          "channel": "TJ DeVries",
+          "duration": 622
+        },
+        {
+          "url": "https://youtu.be/FMZoQ6oXbAc",
+          "title": "DLSS 5 In Forza Horizons 6 is Absolutely INSANE",
+          "channel": "hodilton",
+          "duration": 592
+        },
+        {
+          "url": "https://youtu.be/hIXn5ZBqN_Q?t=1362",
+          "title": "[TF2] 100 POINTS In 1 Round?! Fragging Out on Upward!",
+          "channel": "b4nny",
+          "duration": 1404,
+          "start": 1362,
+          "quote": "Hit at ranges they shouldn't"
+        }
+      ]
+    }
+  ]
+}

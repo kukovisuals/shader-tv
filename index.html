@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HackerTV</title>
+<meta name="description" content="The videos Hacker News keeps recommending, broadcast 24/7 on channels. Same schedule for everyone.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Sans+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SVG filters applied to the YouTube iframe (CSS filter: url(#...)) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="vhs-chroma" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="r"/>
+    <feOffset in="r" dx="3" dy="0" result="r2"/>
+    <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="g"/>
+    <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="b"/>
+    <feOffset in="b" dx="-3" dy="0" result="b2"/>
+    <feBlend in="r2" in2="g" mode="screen" result="rg"/>
+    <feBlend in="rg" in2="b2" mode="screen"/>
+  </filter>
+  <filter id="crt-chroma" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="r"/>
+    <feOffset in="r" dx="1" dy="0" result="r2"/>
+    <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" result="gb"/>
+    <feBlend in="r2" in2="gb" mode="screen"/>
+  </filter>
+</svg>
+
+<header class="masthead">
+  <div class="logo"><span class="logo-hn">HN</span><span class="logo-tv">TV</span></div>
+  <p class="slogan">The videos Hacker News keeps telling each other to watch. Broadcasting 24/7. Everyone sees the same thing.</p>
+</header>
+
+<main class="room">
+  <div class="tv" id="tv">
+    <div class="cabinet">
+      <div class="bezel">
+        <div class="screen filter-off" id="screen">
+          <div class="tube" id="tube">
+            <div class="video-wrap"><div id="player"></div></div>
+            <canvas class="static" id="static" width="160" height="120"></canvas>
+
+            <div class="card standby" id="standby" hidden>
+              <div class="bars"></div>
+              <div class="standby-text">
+                <div class="standby-title" id="standbyTitle">PLEASE STAND BY</div>
+                <div class="standby-sub" id="standbySub"></div>
+              </div>
+            </div>
+
+            <div class="card poweroff" id="poweroff">
+              <button class="power-cta" id="powerCta" type="button">
+                <span class="power-glyph">⏻</span>
+                <span>TURN ON</span>
+              </button>
+            </div>
+
+            <div class="lowerthird" id="lowerthird" hidden>
+              <div class="lt-tag"><span id="ltNum"></span> <span id="ltName"></span></div>
+              <div class="lt-title" id="ltTitle"></div>
+              <div class="lt-quote" id="ltQuote"></div>
+            </div>
+
+            <div class="osd osd-ch" id="osdCh"></div>
+            <div class="osd osd-vhs-play">PLAY ▶</div>
+            <div class="osd osd-vhs-sp">SP</div>
+            <div class="osd osd-vhs-date" id="vhsDate"></div>
+            <div class="osd osd-mute" id="osdMute" hidden>MUTE</div>
+
+            <!-- filter overlays (pointer-events: none) -->
+            <div class="fx fx-scan"></div>
+            <div class="fx fx-mask"></div>
+            <div class="fx fx-track"></div>
+            <div class="fx fx-grain"></div>
+            <div class="fx fx-vignette"></div>
+            <div class="fx fx-glass"></div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="panel">
+        <div class="brandplate">HNTV<small>MODEL HN-1986</small></div>
+        <div class="led" id="led" aria-live="polite">--</div>
+        <div class="viewers" id="viewers" hidden title="People watching HackerTV right now"><i></i><span id="viewersText"></span></div>
+        <div class="knobs">
+          <div class="knob" id="knobCh" title="Channel"><i></i></div>
+          <div class="knob small" id="knobFx" title="Picture"><i></i></div>
+        </div>
+        <div class="buttons">
+          <button type="button" data-act="chup" title="Channel up (↑)">CH ▲</button>
+          <button type="button" data-act="chdown" title="Channel down (↓)">CH ▼</button>
+          <button type="button" data-act="guide" title="Guide (G)">GUIDE</button>
+          <button type="button" data-act="filter" title="Picture mode (F)">PICTURE</button>
+          <button type="button" data-act="mute" title="Mute (M)">MUTE</button>
+          <button type="button" data-act="theater" title="Theater mode (T)">THEATER</button>
+          <button type="button" data-act="fullscreen" title="Fullscreen (double-click screen)">FULLSCR</button>
+          <button type="button" data-act="info" title="Show program info (I)">INFO</button>
+          <button type="button" data-act="captions" title="Captions (C)">CC</button>
+          <button type="button" data-act="power" class="power" title="Power (P)">POWER</button>
+        </div>
+        <div class="keypad" id="keypad">
+          <button type="button" data-key="1">1</button><button type="button" data-key="2">2</button><button type="button" data-key="3">3</button>
+          <button type="button" data-key="4">4</button><button type="button" data-key="5">5</button><button type="button" data-key="6">6</button>
+          <button type="button" data-key="7">7</button><button type="button" data-key="8">8</button><button type="button" data-key="9">9</button>
+          <button type="button" data-key="last" title="Previous channel">PREV</button><button type="button" data-key="0">0</button><button type="button" data-key="enter">ENT</button>
+        </div>
+        <div class="fxname" id="fxName">PICTURE: CLEAN</div>
+        <div class="speaker"></div>
+      </aside>
+    </div>
+    <div class="feet"><span></span><span></span></div>
+  </div>
+
+  <section class="info" id="info">
+    <div class="info-head">
+      <span class="info-num" id="infoNum">--</span>
+      <div>
+        <div class="info-ch" id="infoCh">HackerTV</div>
+        <div class="info-tag" id="infoTag">Press TURN ON to start watching</div>
+      </div>
+      <a class="yt-link" id="ytLink" href="#" target="_blank" rel="noopener" hidden>Watch on YouTube ↗</a>
+    </div>
+    <div class="now" id="now" hidden>
+      <div class="label">NOW</div>
+      <div>
+        <div class="now-title" id="nowTitle"></div>
+        <div class="now-meta" id="nowMeta"></div>
+        <div class="progress"><div id="progressBar"></div></div>
+        <blockquote class="now-quote" id="nowQuote" hidden></blockquote>
+      </div>
+      <div class="label">NEXT</div>
+      <div class="next" id="nextLine"></div>
+    </div>
+    <div class="notice" id="estNotice" hidden>
+      Durations are estimated until the YouTube metadata is fetched, so some programs will run short ("please stand by") or get cut off.
+    </div>
+    <p class="keys">Keys: <kbd>↑</kbd><kbd>↓</kbd> channel · <kbd>0-9</kbd> tune · <kbd>G</kbd> guide · <kbd>F</kbd> picture · <kbd>M</kbd> mute · <kbd>C</kbd> captions · <kbd>I</kbd> info · <kbd>T</kbd> theater · double-click screen for fullscreen · <kbd>P</kbd> power</p>
+  </section>
+</main>
+
+<!-- floating controls for theater / fullscreen -->
+<div class="hud" id="hud">
+  <button type="button" data-act="chdown" title="Channel down">CH ▼</button>
+  <span class="hud-ch" id="hudCh">--</span>
+  <span class="hud-viewers" id="hudViewers" hidden></span>
+  <button type="button" data-act="chup" title="Channel up">CH ▲</button>
+  <button type="button" data-act="guide">GUIDE</button>
+  <button type="button" data-act="filter" id="hudFx">PICTURE</button>
+  <button type="button" data-act="mute">MUTE</button>
+  <button type="button" data-act="captions" title="Captions (C)">CC</button>
+  <button type="button" data-act="fullscreen" title="Toggle fullscreen">⛶</button>
+  <button type="button" data-act="theater" class="hud-exit" title="Exit theater (T / Esc)">EXIT ✕</button>
+</div>
+
+<div class="guide" id="guide" hidden>
+  <div class="guide-inner">
+    <div class="guide-top">
+      <div class="guide-title">HNTV PROGRAM GUIDE</div>
+      <div class="guide-clock" id="guideClock"></div>
+      <button type="button" class="guide-close" id="guideClose" aria-label="Close guide">✕</button>
+    </div>
+    <div class="guide-grid" id="guideGrid"><div class="guide-loading">TUNING ALL CHANNELS…</div></div>
+  </div>
+</div>
+
+<footer class="credits">
+  <a class="discuss" href="https://news.ycombinator.com/item?id=50346755" target="_blank" rel="noopener">Discuss on Hacker News ↗</a>
+  <p class="maker">Made by <a href="https://www.dannysalzman.com" target="_blank" rel="noopener">Danny Salzman</a></p>
+  <p>
+    Videos loaded from <code>videos.json</code><span id="dataUpdated"></span> ·
+    Based on <a href="https://hackertv.org" target="_blank" rel="noopener">HackerTV</a>
+    (<a href="https://github.com/dsalzman/hackertv" target="_blank" rel="noopener">source</a>)
+  </p>
+  <p>Video via YouTube. HN comments remain the work of their authors. Not affiliated with YouTube, Google, Hacker News or Y Combinator.</p>
+</footer>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
