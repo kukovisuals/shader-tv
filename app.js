@@ -189,7 +189,7 @@ async function checkEdition() {
   state.lastIdx = state.idx;
   $("estNotice").hidden = !ed.estimated;
   if (state.powered) {
-    flashOSD("NEW WEEK ON HNTV", 4000);
+    flashOSD("NEW WEEK ON SHADERTV", 4000);
     await tune(state.idx, { quiet: true });
     noise.burst(600);
   }
@@ -596,9 +596,9 @@ const presence = (() => {
     $("hudViewers").hidden = !ok;
     if (!ok) return;
     $("viewersText").textContent = `${fmt(d.total)} WATCHING · ${fmt(d.channel)} HERE`;
-    $("viewers").title = `${d.total} watching HackerTV right now, ${d.channel} on this channel`;
+    $("viewers").title = `${d.total} watching ShaderTV right now, ${d.channel} on this channel`;
     $("hudViewers").textContent = `● ${fmt(d.total)}`;
-    $("hudViewers").title = `${d.total} watching HackerTV, ${d.channel} on this channel`;
+    $("hudViewers").title = `${d.total} watching ShaderTV, ${d.channel} on this channel`;
   }
 
   async function beat() {

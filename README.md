@@ -30,7 +30,7 @@ For several channels, use this shape. Every field except `url` is optional:
 {
   "channels": [
     {
-      "num": 2, "name": "HN PRIME", "tagline": "Shown under the channel name",
+      "num": 2, "name": "SHADER LAB", "tagline": "Shown under the channel name",
       "hours": [23, 5],
       "videos": [
         "https://youtu.be/NGFhc8R_uO4",

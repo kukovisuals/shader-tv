@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HackerTV</title>
-<meta name="description" content="The videos Hacker News keeps recommending, broadcast 24/7 on channels. Same schedule for everyone.">
+<title>ShaderTV</title>
+<meta name="description" content="Graphics-programming videos shared on the Shadertoy Discord server, broadcast 24/7 on channels. Same schedule for everyone.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,8 +33,8 @@
 </svg>
 
 <header class="masthead">
-  <div class="logo"><span class="logo-hn">HN</span><span class="logo-tv">TV</span></div>
-  <p class="slogan">The videos Hacker News keeps telling each other to watch. Broadcasting 24/7. Everyone sees the same thing.</p>
+  <div class="logo"><span class="logo-hn">SHADER</span><span class="logo-tv">TV</span></div>
+  <p class="slogan">The videos the Shadertoy Discord keeps telling each other to watch. Broadcasting 24/7. Everyone sees the same thing.</p>
 </header>
 
 <main class="room">
@@ -85,9 +85,9 @@
       </div>
 
       <aside class="panel">
-        <div class="brandplate">HNTV<small>MODEL HN-1986</small></div>
+        <div class="brandplate">SHADERTV<small>MODEL ST-1986</small></div>
         <div class="led" id="led" aria-live="polite">--</div>
-        <div class="viewers" id="viewers" hidden title="People watching HackerTV right now"><i></i><span id="viewersText"></span></div>
+        <div class="viewers" id="viewers" hidden title="People watching ShaderTV right now"><i></i><span id="viewersText"></span></div>
         <div class="knobs">
           <div class="knob" id="knobCh" title="Channel"><i></i></div>
           <div class="knob small" id="knobFx" title="Picture"><i></i></div>
@@ -121,7 +121,7 @@
     <div class="info-head">
       <span class="info-num" id="infoNum">--</span>
       <div>
-        <div class="info-ch" id="infoCh">HackerTV</div>
+        <div class="info-ch" id="infoCh">ShaderTV</div>
         <div class="info-tag" id="infoTag">Press TURN ON to start watching</div>
       </div>
       <a class="yt-link" id="ytLink" href="#" target="_blank" rel="noopener" hidden>Watch on YouTube ↗</a>
@@ -161,7 +161,7 @@
 <div class="guide" id="guide" hidden>
   <div class="guide-inner">
     <div class="guide-top">
-      <div class="guide-title">HNTV PROGRAM GUIDE</div>
+      <div class="guide-title">SHADERTV PROGRAM GUIDE</div>
       <div class="guide-clock" id="guideClock"></div>
       <button type="button" class="guide-close" id="guideClose" aria-label="Close guide">✕</button>
     </div>
@@ -170,14 +170,11 @@
 </div>
 
 <footer class="credits">
-  <a class="discuss" href="https://news.ycombinator.com/item?id=50346755" target="_blank" rel="noopener">Discuss on Hacker News ↗</a>
-  <p class="maker">Made by <a href="https://www.dannysalzman.com" target="_blank" rel="noopener">Danny Salzman</a></p>
-  <p>
-    Videos loaded from <code>videos.json</code><span id="dataUpdated"></span> ·
-    Based on <a href="https://hackertv.org" target="_blank" rel="noopener">HackerTV</a>
-    (<a href="https://github.com/dsalzman/hackertv" target="_blank" rel="noopener">source</a>)
-  </p>
-  <p>Video via YouTube. HN comments remain the work of their authors. Not affiliated with YouTube, Google, Hacker News or Y Combinator.</p>
+  <a class="discuss" href="https://www.shadertoy.com" target="_blank" rel="noopener">Videos shared on the Shadertoy Discord ↗</a>
+  <p class="maker">Based on <a href="https://hackertv.org" target="_blank" rel="noopener">HackerTV</a> by <a href="https://www.dannysalzman.com" target="_blank" rel="noopener">Danny Salzman</a>
+    (<a href="https://github.com/dsalzman/hackertv" target="_blank" rel="noopener">source</a>)</p>
+  <p>Videos loaded from <code>videos.json</code><span id="dataUpdated"></span></p>
+  <p>Video via YouTube. All videos remain the work of their creators. Not affiliated with YouTube, Google, Shadertoy, Hacker News or Y Combinator.</p>
 </footer>
 
 <script src="https://www.youtube.com/iframe_api"></script>
